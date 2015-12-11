@@ -1,0 +1,104 @@
+/*****************通用样式开始*****************/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+/*.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}*/
+
+
+/*****************通用样式结束*****************/
+
+
+/*****************header开始*****************/
+#header{
+	height: 52px;
+	line-height: 52px;
+	background: #30333a;
+}
+#header .header-title{
+	float: right;
+}
+#header .header-title a{
+	font-size: 14px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	margin-right: 12px;
+}
+
+
+
+/*****************header结束*****************/
+
+.wrap{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*****************nav开始*****************/
+#nav{
+	height: 114px;
+	
+}
+#nav .logo{
+	margin-top: 48px;
+	margin-left: 28px;
+	float: left;
+}
+#nav .nav-menu{
+	margin-left: 165px;
+	margin-top: 43px;
+	float: left;
+}
+#nav .nav-menu li{
+	width: 106px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 24px;
+	float: left;
+}
+#nav .nav-menu a{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	font-family: "微软雅黑","Arial";
+}
+#nav .nav-menu .selected{
+	color: #fff;
+	background: url(../img/sprite.png) no-repeat 0 0;
+}
+#nav .nav-menu a:hover{
+	color: #fff;
+	background: url(../img/sprite.png) no-repeat 0 0;
+}
+
+/*****************nav结束*****************/
+
+
+/*****************banner开始*****************/
+#banner{
+	height: 433px;
+	background: url(../img/banner.jpg) no-repeat 50% 50%;
+}
+
+
+/*****************banner结束*****************/
+
+
+
+/*****************footer开始*****************/
+
+/*****************footer结束*****************/

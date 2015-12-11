@@ -1,0 +1,388 @@
+/*****************content开始*****************/
+#content{
+	height: 666px;
+	margin-top: 10px;
+	/*background: #ccc;*/
+}
+#content .slogan{
+	height: 260px;
+	/*background: green;*/
+}
+#slogan-list{
+	border: 1px solid #e8e8e8;
+}
+#slogan-list li{
+	width: 239px;
+	height: 258px;
+	float: left;
+	border-right: 1px solid #e8e8e8;
+	/*background: blue;*/
+}
+#content .news{
+	height: 370px;
+	/*background: yellow;*/
+	margin-top: 36px;
+}
+#content .news .news-left,#content .news .news-mid{
+	width: 390px;
+	float: left;
+	/*background: red;*/
+}
+#content .news-left .news-title-box,#content .news-mid .news-title-box{
+	height: 158px;
+}
+#content .news-left .news-left-title,#content .news-mid .news-mid-title{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	font-weight: normal;
+	text-indent: 22px;
+	margin-bottom: 14px;
+	background: url(../img/title-bg.jpg) no-repeat 0 0;
+}
+#content .news-left img,#content .news-mid img{
+	float: left;
+}
+#content .news-left span,#content .news-mid span{
+	margin-top: 4px;
+	margin-left: 12px;
+	font-size: 16px;
+	color: #000;
+	font-family: "微软雅黑","Arial";
+	float: left;
+}
+#news-left-list,#news-mid-list{
+	border-top: 1px dotted #000;
+	margin-top: 12px;
+}
+#news-left-list li,#news-mid-list li{
+	height: 16px;
+	text-indent: 16px;
+	margin-bottom: 22px; /*如何确定li的边距*/
+}
+#news-left-list li a,#news-mid-list li a{
+	font-size: 16px;
+	color: #000;
+	font-family: "微软雅黑","Arial";
+	display: block;
+}
+#content .news .news-mid{
+	width: 390px;
+	float: left;
+	margin-left: 14px;
+	/*background: blue;*/
+}
+#content .news .news-right{
+	width: 390px;
+	float: left;
+	margin-left: 15px;
+	/*background: green;*/
+}
+#content .news-right .news-right-title{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	font-weight: normal;
+	text-indent: 22px;
+	margin-bottom: 14px;
+	background: url(../img/title-bg.jpg) no-repeat 0 0;
+}
+#news-right-list li{
+	width: 390px;
+	height: 47px;
+	line-height: 47px;
+	margin-top: 30px;
+	background: url(../img/list-unchecked.jpg) no-repeat 0 0;
+}
+#news-right-list .selected{
+	background: url(../img/list-checked.jpg) no-repeat 0 0;
+}
+#news-right-list li a{
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	display: block;
+}
+#news-right-list li:hover{
+	background: url(../img/list-checked.jpg) no-repeat 0 0;
+}
+
+
+
+/*****************content结束*****************/
+
+
+/*****************show开始*****************/
+#show{
+	height: 440px;
+	border-top: 1px solid #f9f6f7; /*解决外边距合并问题*/
+	background: #f9f6f7;
+}
+#show .show-title{
+	text-align: center;
+	font-size: 24px;
+	font-weight: normal;
+	color: #333;
+	font-family: "微软雅黑","Arial";
+	margin-top: 27px;
+
+}
+#show .info-table{
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+}
+#show table{
+	width: 1000px;
+	border-collapse: collapse;
+}
+#show thead .td1,.td2,.td3{
+	text-align: left;
+}
+#show thead tr{
+	height: 59px;
+	text-align: center;
+	/*margin-top: 16px;*/
+	font-size: 14px;
+	font-weight: normal;
+	color: #010000;
+	font-family: "微软雅黑","Arial";
+}
+
+#show tbody tr td{
+	height: 59px;
+	border-top: 1px solid #ddd;
+	/*background: red;*/
+	font-size: 14px;
+	font-weight: normal;
+	color: #333;
+	font-family: "微软雅黑","Arial";
+	/*text-align: center;*/
+}
+#show tbody .td1{
+	text-indent: 63px;
+	width: 450px;
+	background: url(../img/calculator-bg.jpg) no-repeat 23px 24px;
+}
+#show tbody .td2{
+	text-indent: 23px;
+	/*text-align: center;*/
+	background: url(../img/rmb-bg.jpg) no-repeat 0px 21px;
+}
+/*#show tbody .td3{
+	text-align: center;
+}*/
+#show tbody .td1-bg{
+	margin-left: 18px;
+	display: inline-block;
+	width: 59px;
+	height: 18px;
+	background: url(../img/tip-bg.jpg) no-repeat 0 0;
+}
+#show tbody .invest{
+	color: #fff;
+	text-align: center;
+	background: url(../img/invest-bg.jpg) no-repeat 50% 15px;
+}
+#show tbody .invest a{
+	color: #fff;
+	display: block;
+}
+
+
+
+
+/*****************show结束*****************/
+
+
+
+
+/*****************news开始*****************/
+#news{
+	height: 494px;
+	/*background: yellow;*/
+	margin-top: 43px;
+}
+#news .news-left,#news .news-mid{
+	width: 390px;
+	float: left;
+	/*background: red;*/
+}
+#news .news-title-box{
+	height: 158px;
+}
+#news .news-left .news-left-title,#news .news-mid .news-mid-title{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	font-weight: normal;
+	text-indent: 22px;
+	margin-bottom: 14px;
+	background: url(../img/title-bg.jpg) no-repeat 0 0;
+}
+#news .news-left img,#news .news-mid img{
+	float: left;
+}
+#news .news-left span,#news .news-mid span{
+	margin-top: 4px;
+	margin-left: 12px;
+	font-size: 16px;
+	color: #000;
+	font-family: "微软雅黑","Arial";
+	float: left;
+}
+#news .news-left .text,#news .news-mid .text{
+	color: #333;
+	line-height: 2em;
+	font-size: 14px;
+	/*clear: both;*/
+	margin-left: 166px;	
+	font-family: "宋体","微软雅黑","Arial";
+}
+#news .news-left-list,#news .news-mid-list{
+	border-top: 1px dotted #000;
+	margin-top: 12px;
+}
+#news .news-left-list li,#news .news-mid-list li{
+	height: 16px;
+	text-indent: 16px;
+	margin-bottom: 22px; /*如何确定li的边距*/
+}
+#news .news-left-list li a,#news .news-mid-list li a{
+	font-size: 16px;
+	color: #000;
+	font-family: "微软雅黑","Arial";
+	display: block;
+}
+#news .news-mid{
+	width: 390px;
+	float: left;
+	margin-left: 14px;
+	/*background: blue;*/
+}
+#news .news-right{
+	width: 390px;
+	float: left;
+	margin-left: 15px;
+	/*background: green;*/
+}
+#news .news-right .news-right-title{
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	font-weight: normal;
+	text-indent: 22px;
+	margin-bottom: 14px;
+	background: url(../img/title-bg.jpg) no-repeat 0 0;
+}
+
+/*****************news结束*****************/
+
+
+
+
+/*****************footer开始*****************/
+
+
+#footer{
+	height: 327px;
+	width: 100%;
+	background: #30333a;
+	position: relative;
+}
+#footer .contact{
+	width: 110px;
+	height: 141px;
+	/*background: yellow;*/
+	float: left;
+	margin-left: 74px;
+	margin-top: 62px;
+}
+#footer .contact h3{
+	font-size: 14px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	font-weight: normal;
+	text-indent: 24px;
+	margin-bottom: 13px;
+	/*vertical-align: text-bottom;*/
+	background: url(../img/iphone-bg.jpg) no-repeat 0 0;
+}
+#footer .company-info{
+	width: 545px;
+	height: 121px;
+	/*background: green;*/
+	float: left;
+	margin-left: 205px;
+	margin-top: 82px;
+}
+#footer .address,.tel{
+	clear: both;
+	font-size: 12px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	margin-top: 12px;
+}
+
+#link li{
+	float: left;
+	height: 12px;
+	margin-top: 9px;
+	margin-right: 29px;	
+	margin-bottom: 18px;
+
+}
+#link li a{
+	font-size: 12px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+}
+#copyright{
+	width: 545px;
+	height: 123px;
+	/*background: red;*/
+	clear: both;
+	margin-left: 389px;
+	border-top: 1px solid #30333a; /*解决外边距合并问题*/
+}
+#copyright .copyright-info{
+	font-size: 12px;
+	color: #fff;
+	font-family: "微软雅黑","Arial";
+	margin-top: 22px;
+	margin-left: 31px;
+}
+#weibo .sina-qq{
+	margin-top: 19px;
+	margin-left: 175px;
+}
+#hr{
+	border-top: 1px dotted #262a30;
+	position: absolute;
+	top: 193px;
+	width: 1200px;
+
+}
+
+
+
+/*****************footer结束*****************/
+
+
+
+
+
+
+
+
+
+

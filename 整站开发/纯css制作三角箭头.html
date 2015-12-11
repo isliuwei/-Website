@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>纯css制作三角箭头</title>
+	<style>
+		*{
+			margin: 10px;
+		}
+		#triangle-original{
+			border-top: 20px solid red;
+			border-bottom: 20px solid yellow;
+			border-left: 20px solid blue;
+			border-right: 20px solid green;
+		}
+		#triangle{
+			border-top: 20px solid red;
+			border-bottom: 20px solid yellow;
+			border-left: 20px solid blue;
+			border-right: 20px solid green;
+			width: 0;
+		}
+		#up{
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid yellow;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			width: 0;
+		}
+		#down{
+			border-top: 20px solid red;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid transparent;
+			border-right: 20px solid transparent;
+			width: 0;
+		}
+		#right{
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid blue;
+			border-right: 20px solid transparent;
+			width: 0;
+		}
+		#left{
+			border-top: 20px solid transparent;
+			border-bottom: 20px solid transparent;
+			border-left: 20px solid transparent;
+			border-right: 20px solid green;
+			width: 0;
+		}
+		#up-left-right{
+			height: 0;
+			width: 0;
+			border-top: 50px solid red;
+			border-right: 50px solid blue;
+		}
+		#up-left{
+			height: 0;
+			width: 0;
+			border-top: 50px solid red;
+			border-right: 50px solid transparent;
+		}
+		#up-right{
+			height: 0;
+			width: 0;
+			border-top: 50px solid transparent;
+			border-right: 50px solid blue;
+		}
+		#down-left-right{
+			height: 0;
+			width: 0;
+			border-bottom: 50px solid yellow;
+			border-right: 50px solid green;
+		}
+		#down-left{
+			height: 0;
+			width: 0;
+			border-bottom: 50px solid yellow;
+			border-right: 50px solid transparent;
+		}
+		#down-right{
+			height: 0;
+			width: 0;
+			border-bottom: 50px solid transparent;
+			border-right: 50px solid green;
+		}
+		#top-left-right{
+			height: 0;
+			width: 0;
+			border-top: 100px solid red;
+			border-left: 50px solid yellow;
+			border-right: 50px solid blue;
+		}
+		#bottom-left-right{
+			height: 0;
+			width: 0;
+			border-bottom: 100px solid yellow;
+			border-left: 50px solid blue;
+			border-right: 50px solid green;
+		}
+		#bottom{
+			height: 0;
+			width: 0;
+			border-top: 100px solid red;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}
+		#top{
+			height: 0;
+			width: 0;
+			border-bottom: 100px solid yellow;
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+		}
+		#leftD{
+			height: 0;
+			width: 0;
+			border-right: 100px solid red;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+		}
+		#rightD{
+			height: 0;
+			width: 0;
+			border-left: 100px solid yellow;
+			border-top: 50px solid transparent;
+			border-bottom: 50px solid transparent;
+		}
+	</style>
+</head>
+<body>
+	<div id="triangle-original"></div>
+	<div id="triangle"></div>
+	<div id="up"></div>
+	<div id="down"></div>
+	<div id="right"></div>
+	<div id="left"></div>
+	<div id="up-left-right"></div>
+	<div id="up-left"></div>
+	<div id="up-right"></div>
+	<div id="down-left-right"></div>
+	<div id="down-left"></div>
+	<div id="down-right"></div>
+	<div id="top-left-right"></div>
+	<div id="bottom-left-right"></div>
+	<div id="top"></div>
+	<div id="bottom"></div>
+	<div id="leftD"></div>
+	<div id="rightD"></div>
+</body>
+</html>
