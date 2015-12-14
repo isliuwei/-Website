@@ -1,0 +1,93 @@
+/********************index开始********************/
+#banner{
+	cursor: pointer;
+}
+#imgs-box{
+	height: 513px;
+	background: #ccc;
+	position: relative;
+}
+#imgs-box .tab{
+	height: 10px;
+	width: 100px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -50px;
+	z-index: 1;
+}
+#imgs-box .tab li{
+	width: 10px;
+	height: 10px;
+	border-radius: 5px;
+	background: #fff;
+	float: left;
+	margin-right: 15px;
+	opacity: 0.5;
+	filter: alpha(opacity:50);
+	cursor: pointer;
+}
+#imgs-box .tab li.selected{
+	opacity: 1;
+	filter: alpha(opacity:100);
+}
+#imgs-box .imgs{
+	position: absolute;
+}
+#imgs-box .imgs div{
+	height: 513px;
+	float: left;
+	
+}
+#imgs-box .imgs .imgs-01{
+	background: url(../img/banner1.jpg) no-repeat 50% 50%;
+}
+#imgs-box .imgs .imgs-02{
+	background: url(../img/banner2.jpg) no-repeat center center;
+}
+#imgs-box .imgs .imgs-03{
+	background: url(../img/banner3.jpg) no-repeat center;
+}
+#imgs-box .imgs .imgs-04{
+	background: url(../img/banner4.jpg) no-repeat 50% 50%;
+}
+
+#imgs-box .control .prev{
+	display: block;
+	width: 40px;
+	height: 74px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -37px;
+	z-index: 2;
+	background: url(../img/sprite.png) no-repeat 0 -197px;
+	cursor: pointer;
+}
+#imgs-box .control .next{
+	display: block;
+	width: 40px;
+	height: 74px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -37px;
+	z-index: 2;
+	background: url(../img/sprite.png) no-repeat -40px -197px;
+	cursor: pointer;
+}
+#imgs-box .control .prev:hover{
+	background: url(../img/sprite.png) no-repeat 0 -123px;
+}
+#imgs-box .control .next:hover{
+	background: url(../img/sprite.png) no-repeat -40px -123px;
+}
+
+
+
+
+
+
+
+
+/********************index结束********************/
