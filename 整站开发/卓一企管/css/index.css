@@ -6,6 +6,7 @@
 	height: 513px;
 	background: #ccc;
 	position: relative;
+	overflow: hidden;
 }
 #imgs-box .tab{
 	height: 10px;
@@ -82,11 +83,508 @@
 #imgs-box .control .next:hover{
 	background: url(../img/sprite.png) no-repeat -40px -123px;
 }
+#content1{
+	margin-top: 32px;
+}
+
+#content1 .course{
+	width: 273px;
+	height: 489px;
+	/*background: #ccc;*/
+	margin-right: 25px;
+	border: 1px solid #9e8841;
+	float: left;
+}
+#content1 .course h3{
+	height: 55px;
+	line-height: 55px;
+	width: 273px;
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	background: #9e8841;
+	text-indent: 19px;
+}
+#content1 .course span{
+	float: right;
+	margin-right: 23px;
+	font-size: 12px;
+	color: #fff;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+}
+#content1 .course-list li{
+	height: 42px;
+	line-height: 42px;
+	width: 273px;
+	background: #c1b385;
+	border-top: 1px solid #fff;
+
+}
+#content1 .course-list li a{
+	display: block;
+	height: 42px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	text-indent: 59px;
+	background: url(../img/sprite.png) no-repeat 40px -272px ;
+}
+#content1 .course-month,.course-hot{
+	width: 286px;
+	height: 339px;
+	border: 1px solid #e3e3e3;
+	/*background: yellow;*/
+	float: left;
+	margin-right: 23px;
+}
+#content1 .course-month h3,.course-hot h3{
+	width: 249px;
+	height: 52px;
+	line-height: 52px;
+	/*background: blue;*/
+	margin: 0 17px 0 20px;
+	border-bottom: 2px solid #9e8841;
+	font-size: 25px;
+	color: #9e8841;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	text-indent: 16px;
+}
+#content1 .course-hot .h3-color{
+	color: #ed3c58;
+	border-bottom: 2px solid #ed3c58;
+}
+#content1 .course-month span,.course-hot span{
+	font-size: 14px;
+	color: #aaaaaa;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	float: right;
+	margin-right: 14px;
+}
+#content1 .course-month-list,.course-hot-list{
+	margin-top: 17px;
+}
+#content1 .course-month-list li,.course-hot-list li{
+	height: 14px;
+	margin-bottom: 19px;
+}
+#content1 .course-hot-list li{
+	background: url(../img/sprite.png) no-repeat 26px -341px;
+}
+#content1 .course-month-list li a{
+	display: block;
+	height: 14px;
+	text-indent: 39px;
+	float: left;
+	/*padding-right: 25px;*/
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	background: url(../img/sprite.png) no-repeat 26px -310px;
+}
+#content1 .course-hot-list li a{
+	display: block;
+	height: 14px;
+	text-indent: 39px;
+	float: left;
+	font-size: 14px;
+	color: #ed3c58;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";	
+}
+#content1 .course-hot-list li a.hot-mark{
+	padding-right: 40px;  /* 为背景图片预留插入的空间 */
+	background: url(../img/sprite.png) no-repeat right -374px;
+}
+#content1 .course-month-list span{
+	float: right;
+	display: block;
+	width: 25px;
+	height: 10px;
+	background: url(../img/sprite.png) no-repeat 0px -329px;
+}
+#content1 .course-month-list .span1{
+	margin-right: 66px;
+}
+#content1 .course-month-list .span1{
+	margin-right: 44px;
+}
+
+#content1 .course-hot{
+	width: 286px;
+	height: 339px;
+	border: 1px solid #e3e3e3;
+	/*background: yellow;*/
+	float: left;
+	margin-right: 21px;
+}
+
+#content1 .submit{
+	width: 298px;
+	height: 339px;
+	float: left;
+}
+#content1 .submit h2{
+	width: 300px;
+	height: 56px;
+	line-height: 56px;
+	text-align: center;
+	background: #303f70;
+	font-size: 20px;
+	color: #fff;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";	
+}
+#content1 .submit .submit-bottom{
+	width: 298px;
+	height: 284px;
+	border: 1px solid #e3e3e3;
+	border-top: none;
+	float: left;
+	background: #f5f5f5;
+}
+#content1 .submit-sheet{
+	width: 240px;
+	height: 265px;
+	margin: 18px 32px auto 26px;
+	
+}
+#content1 .submit-sheet label{
+	display: block;
+	height: 14px;
+	line-height: 14px;
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";	
+	margin-bottom: 7px;
+	float: left;
+}
+#content1 .submit-sheet .forget-password,.remember-password,.none-account{
+	font-size: 12px;
+	color: #8b8b8b;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";	
+}
+#content1 .submit-sheet .forget-password{
+	float: right;
+}
+#content1 .submit-sheet input{
+	width: 236px;
+	height: 32px;
+	line-height: 32px; /*解决IE input 输入框内文字垂直居中的问题*/
+	border: 1px solid #bebebe;
+	border-radius: 2px;
+	margin-bottom: 15px;
+}
+#content1 .submit-sheet .account{
+	text-indent: 35px;
+	background: url(../img/sprite.png) no-repeat 7px -392px;
+}
+#content1 .submit-sheet .password{
+	text-indent: 35px;
+	background: url(../img/sprite.png) no-repeat 7px -426px;
+}
+#content1 .submit-sheet .check-button{
+	width: 13px;
+	height: 13px;
+}
+#content1 .submit-sheet .submit-button{
+	background: #c0a960;
+	font-size: 18px;
+	color: #fff;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	cursor: pointer;	
+}
+#content1 .submit-sheet .submit-link{
+	text-decoration: underline;
+	font-size: 12px;
+	color: #ef5b1b;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+}
+
+#content1 .video{
+	width: 920px;
+	height: 128px;
+	margin-top: 21px;
+	/*background: red;*/
+	float: left;
+}
+#content2{
+	padding-top: 22px;
+	clear: both;
+}
+#content2 .content2-left{
+	float: left;
+}
+#content2 .calender{
+	margin-right: 23px;
+	margin-bottom: 24px;
+}
+#content2 .download{
+	width: 272px;
+	height: 196px;
+	border: 1px solid #e3e3e3;
+}
+#content2 .download h3,#content3 .content3-left h3,#content4 .content4-left h3{
+	width: 249px;
+	height: 48px;
+	line-height: 48px;
+	border-bottom: 2px solid #a49051;
+	font-size: 18px;
+	color: #a49051;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	margin-left: 10px;
+}
+#content2 .download span,#content3 .content3-left span,#content3 .show span,#content4 .content4-left span,#content4 .news span{
+	font-size: 14px;
+	color: #aaa;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	float: right;
+}
+#content2 .download li{
+	height: 14px;
+	margin-bottom: 22px;
+
+}
+#content2 .download li a{
+	display: block;
+	text-indent: 31px;
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	background: url(../img/sprite.png) no-repeat 18px -309px;
+}
+#content2 .catalogue{
+	width: 918px;
+	height: 511px;
+	float: left;
+	/*background: yellow;*/
+	border: 1px solid #e3e3e3;
+}
+#content2 .catalogue h3,#content3 .show h3,#content4 .news h3{
+	font-size: 18px;
+	color: #9e8841;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	height: 39px;
+	width: 862px;
+	line-height: 39px;
+	margin-left: 28px;
+	border-bottom: 1px solid #dbdbdb;
+
+}
+#content2 .course-catalogue{
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 860px;
+}
+#content2 .course-catalogue li{
+	float: left;
+	margin-top: 20px;
+	margin-right: 24px;
+}
+#content3,#content4{
+	padding-top: 31px;
+	clear: both;
+}
+#content3 .content3-left,#content4 .content4-left{
+	width: 272px;
+	height: 264px;
+	/*background: red;*/
+	clear: both;
+	float: left;
+	margin-right: 25px;
+	border: 1px solid #e3e3e3;
+}
+#content3 .content3-left h4{
+	margin-top: 14px;
+	width: 249px;
+	height: 55px;
+	line-height: 55px;
+	margin-left: 10px;
+	text-indent: 66px;
+	background: yellow;
+	font-size: 12px;
+	color: #aaaaaa;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	background: url(../img/sprite.png) no-repeat 0px -469px;
+	
+}
+#content3 .content3-left .text{
+	margin-left: 10px;
+	margin-top: 15px;
+	width: 249px;
+}
+#content3 .content3-left .text p{
+	font-size: 12px;
+	color: #aaaaaa;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	line-height: 20px;
+}
+#content3 .text span{
+	display: block;
+	width: 16px;
+	height: 12px;
+}
+#content3 .text .left-quote{
+	float: left;
+	background: url(../img/sprite.png) no-repeat 0px -537px;
+}
+#content3 .text .right-quote{
+	float: right;
+	background: url(../img/sprite.png) no-repeat -20px -537px;
+}
+#content3 .show,#content4 .news{
+	width: 918px;
+	height: 264px;
+	/*background: yellow;*/
+	float: left;
+	border: 1px solid #e3e3e3;
+}
+#content3 .show .show-list{
+	margin-top: 33px;
+	margin-left: 31px;
+}
+#content3 .show .show-list li{
+	float: left;
+	margin-right: 10px;
+}
+
+#content4 .company-info{
+	margin-top: 25px;
+	margin-left: 10px;
+	line-height: 26px;
+}
+#content4 .company-info .company-name{
+	font-size: 16px;
+	color: #474747;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	margin-bottom: 14px;
+}
+#content4 .company-info p{
+	font-size: 14px;
+	color: #787878;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+}
+#content4 .news img{
+	margin-top: 22px;
+	margin-left: 31px;
+	float: left;
+
+}
+#content4 .news .news-list{
+	float: left;
+	margin-top: 22px;
+	width: 602px;
+	margin-left: 19px;
+}
+#content4 .news .news-list li{
+	float: left;
+	height: 14px;
+	margin-bottom: 20px;
+	width: 602px;
+	text-indent: 43px;
+	background: url(../img/sprite.png) no-repeat 23px -309px;
+}
+#content4 .news .news-list li a{
+	font-size: 14px;
+	color: #464646;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	
+
+}
+#content4 .news .news-list span{
+	float: right;
+	font-size: 12px;
+	color: #8d8d8d;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+}
+#content{
+	height: 1620px;
+}
 
 
+#footer{
+	height: 324px;
+	border-top: 2px solid #9e8841;
+	margin-top: 34px;
+	background: #2f2f2f;
+	clear: both;
+	position: relative;
+}
+#footer ul{
+	float: left;
+	margin-left: 66px;
+	margin-top: 42px;
+}
+#footer ul h4{
+	font-size: 14px;
+	color: #a5a5a5;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
 
+}
+#footer ul a{
+	font-size: 12px;
+	color: #6d6b6b;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
 
+}
+#footer .QR-code{
+	width: 120px;
+	height: 137px;
+	/*background: yellow;*/
+	float: right;
+	margin-right: 70px;
+	margin-top: 49px;
+}
+#footer .QR-code img{
+	margin-left: 8px;
+}
+#footer .QR-code h5{
+	margin-top: 13px;
+	font-size: 12px;
+	color: #6d6b6b;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
 
+}
+#hr{
+	width: 100%;
+	border: 1px solid #404040;
+	position: absolute;
+	bottom: 39px;
+}
+#footer .web-ICP{
+	text-align: center;
+	font-size: 12px;
+	color: #6d6b6b;
+	font-weight: normal;
+	font-family: "微软雅黑","Arial";
+	position: absolute;
+	bottom: 13px;
+	left: 50%;
+	margin-left: -170px;
+
+}
 
 
 

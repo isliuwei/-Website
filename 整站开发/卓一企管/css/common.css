@@ -163,6 +163,7 @@ input{
 #search-ipt{
 	width: 358px;
 	height: 39px;
+	line-height: 39px; /*解决IE input 输入框内文字垂直居中的问题*/
 	float: left;
 	text-indent: 12px;
 	font-size: 14px;
